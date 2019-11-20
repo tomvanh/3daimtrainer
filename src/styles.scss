@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "main.scss";
+
+@font-face {
+  font-family: Lato-Heavy;
+  src: url(assets/fonts/Lato-Heavy.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url(assets/fonts/Oswald-Medium.otf) format("opentype");
+}

@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.level {
+  width: 30%;
+  height: auto;
+}
+
+.level-top {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $color-bg-purple-dark;
+}

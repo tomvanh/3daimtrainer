@@ -1,0 +1,20 @@
+@import "../../../variables";
+
+.btn {
+  margin: 2px 2px 2px 0;
+  padding: 0.5rem 1rem;
+  min-width: 7rem;
+  border: 2px solid $color-button-purple-border;
+  background-color: $color-bg-purple-light-active;
+  font-weight: bold;
+  color: $color-white;
+
+  &.active {
+    background-color: white;
+    color: black;
+    border: 2px solid $color-button-purple-border;
+    -moz-box-shadow: 0 0 20px $color-button-purple-border;
+    -webkit-box-shadow: 0 0 20px $color-button-purple-border;
+    box-shadow: 0px 0px 20px $color-button-purple-border;
+  }
+}

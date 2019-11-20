@@ -1,0 +1,9 @@
+<div>
+    <h1 class="title">{{ title | uppercase }}</h1>
+    <div>
+      <app-glow-button *ngFor="let button of skillButtons; let first = first" [values]="button" [isActive]="first"></app-glow-button>
+    </div>
+    <app-level-selector [data]="microLevel"></app-level-selector>
+    <app-level-selector [data]="macroLevel"></app-level-selector>
+    <app-level-selector [data]="allAroundLevel"></app-level-selector>
+</div>

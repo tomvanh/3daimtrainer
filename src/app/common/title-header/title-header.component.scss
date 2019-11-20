@@ -1,0 +1,18 @@
+@import "../../../variables";
+
+.titleBanner {
+  margin: 2px;
+  border-top: 4px solid $color-orange;
+  padding: 1rem 1rem 1rem 3rem;
+  margin-top: 2rem;
+  background-color: $color-bg-purple-dark;
+
+  .title-carrousel-arrows {
+    color: $color-white;
+    float: right;
+
+    i {
+      padding: 0 5px;
+    }
+  }
+}
